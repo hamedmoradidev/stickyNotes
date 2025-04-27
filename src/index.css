@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@font-face {
+    font-family: FuzzyBubblesRegular;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./assets/font/FuzzyBubbles-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: FuzzyBubblesBold;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./assets/font/FuzzyBubbles-Bold.ttf") format("truetype");
+  }
+  @theme {
+    --font-FuzzyBubblesRegular: "FuzzyBubblesRegular", sans-serif; 
+    --font-FuzzyBubblesBold: "FuzzyBubblesBold", sans-serif; 
+
+  }
+body {
+    background-color: #fff;
+    color: #000;
+  }
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
