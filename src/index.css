@@ -18,6 +18,12 @@
     --font-FuzzyBubblesBold: "FuzzyBubblesBold", sans-serif; 
 
   }
+  @layer utilities {
+    .animate-bounce {
+      animation: bounce 5s infinite;
+    }
+  }
+  
 body {
     background-color: #fff;
     color: #000;

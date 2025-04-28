@@ -8,7 +8,7 @@ export default function Note({index, data}) {
     initial={{ scale: 0, opacity: 0 }}
     animate={{ scale: 1, opacity: 1 }}
     transition={{ type: "spring", stiffness: 300, damping: 20 }}
-    className={`w-[300px] h-[300px] flex items-center justify-center rounded-md`}
+    className={`w-[300px] h-[300px] flex items-center justify-center rounded-md font-FuzzyBubblesRegular`}
     style={{
       filter: 'drop-shadow(0 4px 4px rgba(0,0,0,0.25))',
       backgroundColor: data.color,

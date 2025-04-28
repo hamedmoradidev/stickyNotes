@@ -1,80 +1,12 @@
+# React + Vite
 
-# 🗒️ Sticky Notes
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A simple and elegant web app for creating and managing sticky notes with night mode feature — built with **React**, **Vite**, and **Tailwind CSS**.
+Currently, two official plugins are available:
 
-🌐 **Live Demo:** [sticky-notes-rouge.vercel.app](https://sticky-notes-rouge.vercel.app)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<img src="https://github.com/user-attachments/assets/e782eddd-8029-4234-99fd-bf3bf5bb6ba7" alt="project-screenshot" width="1000" height="600/">
+## Expanding the ESLint configuration
 
----
-
-## ✨ Features
-- Create colorful sticky notes
-- Clean and minimalistic UI
-- Night Mode for ease of use
-
----
-
-## 🛠️ Tech Stack
-- **React** (Frontend library)
-- **Vite** (Build tool)
-- **Tailwind CSS** (Utility-first CSS framework)
-- **JavaScript**, **HTML**, **CSS**
-
----
-
-## 📦 Dependencies
-- **Motion** (for animations)
-- **MUI** (Material UI, for UI components)
-
----
-
-## 📫 Contact  
-Developed by **Hamed Moradi**  
-- GitHub: [hamedmoradidev](https://github.com/hamedmoradidev)  
-- Instagram: [@hamed.moradi.dev](https://www.instagram.com/hamedmoradidev)  
-- LinkedIn: [Hamed Moradi](https://www.linkedin.com/in/hamedmoradidev)
-  
----
-
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/hamedmoradidev/stickyNotes.git
-cd stickyNotes
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-The final build will be available in the `dist/` folder.
-
----
-
-## 📋 Requirements
-- Node.js (>= 16)
-- npm (>= 8)
-
----
-
-## 📝 License
-This project is licensed under the **MIT License**.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
