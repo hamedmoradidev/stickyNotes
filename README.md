@@ -10,7 +10,7 @@ A simple and elegant web app for creating and managing sticky notes with night m
 ---
 
 ## ✨ Features
-- Create colorfull sticky notes
+- Create colorful sticky notes
 - Clean and minimalistic UI
 - Night Mode for ease of use
 
