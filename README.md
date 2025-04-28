@@ -1,7 +1,7 @@
 
 # 🗒️ Sticky Notes
 
-A simple and elegant web app for creating, editing, and managing sticky notes — built with **React**, **Vite**, and **Tailwind CSS**.
+A simple and elegant web app for creating and managing sticky notes with night mode feature — built with **React**, **Vite**, and **Tailwind CSS**.
 
 🌐 **Live Demo:** [sticky-notes-rouge.vercel.app](https://sticky-notes-rouge.vercel.app)
 
@@ -13,7 +13,6 @@ A simple and elegant web app for creating, editing, and managing sticky notes �
 - Create colorfull sticky notes
 - Clean and minimalistic UI
 - Night Mode for ease of use
-- Instant updates with Vite's blazing-fast HMR
 
 ---
 
@@ -29,6 +28,14 @@ A simple and elegant web app for creating, editing, and managing sticky notes �
 - **Motion** (for animations)
 - **MUI** (Material UI, for UI components)
 
+---
+
+## 📫 Contact  
+Developed by **Hamed Moradi**  
+- GitHub: [hamedmoradidev](https://github.com/hamedmoradidev)  
+- Instagram: [@hamed.moradi.dev](https://www.instagram.com/hamedmoradidev)  
+- LinkedIn: [Hamed Moradi](https://www.linkedin.com/in/hamedmoradidev)
+  
 ---
 
 ## 🚀 Installation
@@ -71,11 +78,3 @@ The final build will be available in the `dist/` folder.
 
 ## 📝 License
 This project is licensed under the **MIT License**.
-
----
-
-## 📫 Contact  
-Developed by **Hamed Moradi**  
-- GitHub: [hamedmoradidev](https://github.com/hamedmoradidev)  
-- Instagram: [@hamed.moradi.dev](https://www.instagram.com/hamedmoradidev)  
-- LinkedIn: [Hamed Moradi](https://www.linkedin.com/in/hamedmoradidev)
